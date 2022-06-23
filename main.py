@@ -40,15 +40,17 @@ class Cat:
 
 cats = []
 alice = Cat('alice', 'white','2')
-cats.append(alice)
-gja = Cat('gja', 'black', '1000')
-cats.append(gja)
+# cats.append(alice)
+# gja = Cat('gja', 'black', '1000')
+# cats.append(gja)
 
-print(cats)
-print(cats[0])
-print(cats[0].color)
-cats[0].color = 'orange'
-print(cats[0].color)
+# print(cats)
+# print(cats[0])
+# print(cats[0].color)
+# cats[0].color = 'orange'
+# print(cats[0].color)
 
-cats[0].say_your_name()
-cats[-1].say_your_name()
+# cats[0].say_your_name()
+# cats[-1].say_your_name()
+print(type(Cat))
+print(type(alice))
